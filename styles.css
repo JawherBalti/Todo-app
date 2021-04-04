@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.center {
+  align-self: center;
+}
+
+.flow-right {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 45vh;
+}
+
+#bg{
+  max-height: 94vh;
+}
+
+#item-count{
+  position: absolute;
+  top: 24px;
+  left: 65px;
+}
+#ic{
+  position: absolute;
+  top: 20px; 
+}
+
+#unchecked-count{
+  position: absolute;
+  top: 24px;
+  left: 65px;
+}
+#uc{
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+.controls{
+  font-size: larger;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 4px 0 black;
+}
+
+.title {
+  flex: none;
+  color: rgba(230, 230, 230, 0.904);
+  text-shadow: 0 7px 0 black;
+  position: absolute;
+  top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgba(230, 230, 230, 0.904);
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: bolder;
+  font-family: serif;
+  border-radius: 1cm;
+  position: absolute;
+  top: 200px;
+}
+
+#todo-text {
+  position: absolute;
+  font-family: sans-serif;
+  right: 569px;
+  top: 130px;
+  height: 40px;
+  border-radius: 1cm;
+  font-size: larger;
+  background-color: rgba(230, 230, 230, 0.904);
+}
+
+.todo-list {
+  flex: 1 1 0;
+  margin-top: 20px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.todo-delete {
+  margin: 10px;
+}
+
+.todo-checkbox {
+  margin: 10px;
+}
+
+.todo-container {
+  top: 100px;
+  padding: 5px;
+  border-bottom: 1px solid #333;
+  background-color: rgba(230, 230, 230, 0.904);
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.todo-container:first-of-type {
+  border-top: 1px solid #333;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+opacity: 0.8;
+
+
+}
